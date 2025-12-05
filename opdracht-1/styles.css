@@ -1,0 +1,122 @@
+/*Opdracht 1a*/
+
+.navbar-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-one ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+}
+
+/*Opdracht 1b*/
+
+.navbar-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-two ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/*Opdracht 1c*/
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    flex-basis: 92%;
+}
+
+.navbar-three div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 180px;
+}
+
+/*Opdracht 1d*/
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-four div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 180px;
+
+}
+
+.navbar-four-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    flex-basis: 75%;
+}
+
+.navbar-four-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-basis: 190px;
+}
+
+/*Opdracht 1d */
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-five div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 180px;
+
+}
+
+.navbar-five-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex-basis: 30%;
+}
+
+.navbar-five-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-basis: 190px;
+}
